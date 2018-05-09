@@ -6,7 +6,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "BloodyElbows Associates Tracker",
+            "title": "Pilis Kollegetracker",
             "formList": [
                 {
                     "id": "FriendForm",
@@ -252,21 +252,21 @@ export class GuiModel {
                         {
                             "type": "button",
                             "name": "Location",
-                            "icon": "fa-steam",
-                            "color": "midnight blue",
+                            "icon": "fa-location-arrow",
+                            "color": "purple",
                             "page": "locationspage",
                         },
 						{ 
 						"type": "button",
 						"name": "Groups",
-						"icon": "fa-dollar",
-						"color": "purple", 
+						"icon": "fa-circle",
+						"color": "midnight blue", 
 						"page": "groupspage", 
 						},
 						{ 
 						"type": "button",
 						"name": "Activities",
-						"icon": "fa-crosshairs",
+						"icon": "fa-bicycle",
 						"color": "yellow", 
 						"page": "activitiespage", 
 						},
